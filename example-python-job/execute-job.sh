@@ -18,6 +18,7 @@ kind: Job
 metadata:
   name: $JOB_NAME
 spec:
+  ttlSecondsAfterFinished: 864000
   template:
     spec:
       containers:
